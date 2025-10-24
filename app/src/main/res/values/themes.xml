@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Responsi1MobileH1D023014" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Responsi1MobileH1D023014" parent="Base.Theme.Responsi1MobileH1D023014" />
+
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ShapeAppearance.App.BottomSheetDialog</item>
+    </style>
+
+    <style name="ShapeAppearance.App.BottomSheetDialog" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.App.BottomSheetDialog</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.BottomSheetDialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <!--
+          FIX: Diganti ke TopLeft dan TopRight biar pasti dikenali
+        -->
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+
+
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Background splash screen-nya -->
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+
+        <!-- Logo yang mau ditampilin (ambil dari ic_launcher) -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Theme yang dituju SETELAH splash screen selesai -->
+        <item name="postSplashScreenTheme">@style/Theme.Responsi1MobileH1D023014</item>
+    </style>
+</resources>

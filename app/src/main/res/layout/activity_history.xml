@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF1F1"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_stadion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏟️ Club History"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#D50000"
+            android:layout_marginTop="12dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="4dp"
+            android:background="#D50000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Founded in 1901, Stade Rennais FC is one of the oldest clubs in France. Based in Rennes, Brittany, the club has played an important role in developing French football talent. Known for their red and black kit, they are passionate contenders in Ligue 1, hosting home games at the iconic Roazhon Park. The club is also known for its successful youth academy, which has produced world-class players."
+            android:textColor="#333333"
+            android:textSize="15sp"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
