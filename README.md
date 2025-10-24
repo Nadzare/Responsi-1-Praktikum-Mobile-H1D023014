@@ -27,7 +27,8 @@ Aplikasi Android native berbasis **Kotlin** yang berfungsi sebagai pusat informa
 ## 🎥 Demo Aplikasi
 
 Lihat video demo aplikasi di sini:  
-🔗 [staderennais.gif](https://github.com/Nadzare/Responsi-1-Praktikum-Mobile-H1D023014/blob/main/app/src/main/res/drawable/staderennais.gif)
+
+<img src="https://github.com/Nadzare/Responsi-1-Praktikum-Mobile-H1D023014/blob/main/app/src/main/res/drawable/staderennais.gif" alt="output Tugas 3 Pertemuan 4" width="300"/>
 
 ---
 
