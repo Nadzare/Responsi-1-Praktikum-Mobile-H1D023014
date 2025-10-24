@@ -12,14 +12,13 @@ import com.unsoed.responsi1mobileh1d023014.TeamActivity
 
 class MainActivity : AppCompatActivity() {
 
-    // Inisialisasi ViewBinding
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        // --- 2. TAMBAHKAN BARIS INI ---
-        // Panggil installSplashScreen() SEBELUM super.onCreate()
+
         installSplashScreen()
-        // ------------------------------------
+
 
         super.onCreate(savedInstanceState)
 
